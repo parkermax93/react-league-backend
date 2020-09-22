@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+    #probably deleting
     has_secure_password
     has_many :characters
     has_many :comments

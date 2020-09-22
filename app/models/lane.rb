@@ -1,4 +1,4 @@
 class Lane < ApplicationRecord
-    belongs_to :characters, optional: true
+    has_many :characters
     validates :name, presence: true
 end
