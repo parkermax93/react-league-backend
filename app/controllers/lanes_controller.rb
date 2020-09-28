@@ -1,11 +1,5 @@
 class LanesController < ApplicationController
 
-    def index
-    end
-
-    def show
-    end
-
     private
 
     def lane_params

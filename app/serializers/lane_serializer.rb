@@ -1,5 +1,5 @@
 class LaneSerializer
     include FastJsonapi::ObjectSerializer
-    attributes :name, :character_id
-    belongs_to :character
+    attributes :name
+    has_many :characters
 end

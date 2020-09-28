@@ -1,6 +1,5 @@
 class CharacterSerializer
     include FastJsonapi::ObjectSerializer
-    attributes :name, :image_url, :description, :lanes, :user_id, :comments, :likes
-    has_many :lanes 
-    belongs_to :user 
+    attributes :name, :image_url, :description, :lane, :comments
+    belongs_to :lane
 end
