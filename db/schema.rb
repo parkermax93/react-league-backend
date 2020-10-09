@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 2020_09_22_180723) do
     t.string "image_url"
     t.integer "lane_id"
     t.text "description"
-    t.integer "likes"
   end
 
   create_table "lanes", force: :cascade do |t|
